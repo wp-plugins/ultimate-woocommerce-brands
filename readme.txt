@@ -23,7 +23,7 @@ This plugin allow you to easy add brands to your WooCommerce products on your ex
 *   100% Responsive all plugin elements and pages
 *   Translation ready (PO/MO files included)
 
-This is a free light version of Ultimate WooCommerce Brands Plugin. 
+This is a Free light version of Ultimate WooCommerce Brands Plugin. 
 [Purchase PRO version](http://codecanyon.net/item/ultimate-woocommerce-brands-plugin/9433984/?ref=dedalx "PRO version") to get this amazing features:
 
 *   Add logos to your brands

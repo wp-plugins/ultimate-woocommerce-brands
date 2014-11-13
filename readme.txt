@@ -36,6 +36,10 @@ This is a free light version of Ultimate WooCommerce Brands Plugin.
 *   100% Responsive all plugin elements and pages
 *   Free Plugin updates and support
 
+= Live Demo =
+
+Ultimate Woocommerce Brands Live Demo: [http://wp-plugins.dedalx.com/woocommerce-brands/](http://wp-plugins.dedalx.com/woocommerce-brands/)
+
 = Pro Version =
 
 To Buy Pro Version Please [Click Here](http://codecanyon.net/item/ultimate-woocommerce-brands-plugin/9433984/?ref=dedalx "Click Here")

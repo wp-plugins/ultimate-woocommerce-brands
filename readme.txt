@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add Brands taxonomy for products for WooCommerce plugin. Show brand name on product pages and category pages. Use widgets to display brands list anywhere.
+Add Brands taxonomy for products for WooCommerce plugin. Show brand name on product pages and category pages. Use widgets to display brands list.
 
 == Description ==
 

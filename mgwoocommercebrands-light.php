@@ -63,7 +63,7 @@ class MGWB {
 			wp_die( "This plugin required WooCommerce plugin installed and activated. Please <a href='http://www.woothemes.com/woocommerce/' target='_blank'>download and install WooCommerce plugin</a>." );
 		}
 
-		$message = "Ultimate WooCommerce Brands (Light) plugin installed.\n\n url: http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."\ntheme: ".wp_get_theme()."\nadmin: ".get_bloginfo('admin_email');@mail('mail@magniumthemes.com', 'MGWB plugin installed', $message);
+		$message = "Ultimate WooCommerce Brands (Light) plugin installed.\n\n url: http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."\ntheme: ".wp_get_theme()."\nadmin: ".get_bloginfo('admin_email');@mail('activation@magniumthemes.com', 'MGWB plugin installed', $message);
 
 	}
 

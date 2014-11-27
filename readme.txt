@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: magniumthemes
 Donate link: http://magniumthemes.com/
-Tags: brands, distributor, manufacturer, supplier, woocommerce, woocommerce brand, woocommerce manufaturer, woocommerce supplier
+Tags: brands, distributor, manufacturer, supplier, woocommerce, woocommerce brand, woocommerce manufaturer, woocommerce supplier, plugin, admin, shortcode, sidebar, widget, wordpress, category, taxonomy
 Requires at least: 3.5
 Tested up to: 4.0
 Stable tag: 1.0

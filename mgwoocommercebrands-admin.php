@@ -88,7 +88,7 @@ if ( ! class_exists( 'mgwoocommercebrandsadmin' ) ) {
 				  <area shape="rect" coords="398,142,583,178" href="http://twitter.com/magniumthemes/" target="_blank" alt="Twitter" />
 				  <area shape="rect" coords="589,140,778,181" href="http://google.com/+magniumthemescompany" target="_blank" alt="Google+" />
 				</map>
-				<div class="mg-plugin-wrapper"><img src="<?php echo WP_PLUGIN_URL . DIRECTORY_SEPARATOR . "mgwoocommercebrands-light" . DIRECTORY_SEPARATOR; ?>img/plugin-wrapper.png" usemap="#Map" alt="MagniumThemes - Premium Themes and Plugins"/></div>
+				<div class="mg-plugin-wrapper"><img src="<?php echo WP_PLUGIN_URL . DIRECTORY_SEPARATOR . "mgwoocommercebrands" . DIRECTORY_SEPARATOR; ?>img/plugin-wrapper.png" usemap="#Map" alt="MagniumThemes - Premium Themes and Plugins"/></div>
 				<div class="mgwoocommercebrands-pro-version updated woocommerce-message">
 					<p><strong>You are using free light version of Ultimate WooCommerce Brands Plugin. <a target="_blank" href="http://codecanyon.net/item/ultimate-woocommerce-brands-plugin/9433984/?ref=dedalx">Purchase PRO version</a> to get this amazing features:</strong><p>
 					<ul style="list-style: inherit; margin-left: 20px;">

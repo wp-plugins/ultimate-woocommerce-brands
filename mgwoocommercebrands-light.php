@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /* Register hook */
 @session_start();
 if ( ! class_exists( 'mgwoocommercebrands' ) ) {
-	require_once WP_PLUGIN_DIR . DIRECTORY_SEPARATOR . "mgwoocommercebrands-light" . DIRECTORY_SEPARATOR . "mgwoocommercebrands-widget-brands-list.php";
+	require_once WP_PLUGIN_DIR . DIRECTORY_SEPARATOR . "mgwoocommercebrands" . DIRECTORY_SEPARATOR . "mgwoocommercebrands-widget-brands-list.php";
 }
 
 class MGWB {
@@ -395,7 +395,7 @@ class MGWB {
 
 		$locale = apply_filters( 'plugin_locale', get_locale(), 'mgwoocommercebrands' );
 
-		return WP_PLUGIN_DIR . "/mgwoocommercebrands-light/languages/mgwoocommercebrands-$locale.mo";
+		return WP_PLUGIN_DIR . "/mgwoocommercebrands/languages/mgwoocommercebrands-$locale.mo";
 
 	}
 
@@ -407,12 +407,12 @@ class MGWB {
 
 		// Admin Locale
 		if ( is_admin() ) {
-			load_textdomain( 'mgwoocommercebrands', WP_PLUGIN_DIR . "/mgwoocommercebrands-light/languages/mgwoocommercebrands-$locale.mo" );
+			load_textdomain( 'mgwoocommercebrands', WP_PLUGIN_DIR . "/mgwoocommercebrands/languages/mgwoocommercebrands-$locale.mo" );
 		}
 
 		// Global + Frontend Locale
-		load_textdomain( 'mgwoocommercebrands', WP_PLUGIN_DIR . "/mgwoocommercebrands-light/languages/mgwoocommercebrands-$locale.mo" );
-		load_plugin_textdomain( 'mgwoocommercebrands', false, WP_PLUGIN_DIR . "/mgwoocommercebrands-light/languages/" );
+		load_textdomain( 'mgwoocommercebrands', WP_PLUGIN_DIR . "/mgwoocommercebrands/languages/mgwoocommercebrands-$locale.mo" );
+		load_plugin_textdomain( 'mgwoocommercebrands', false, WP_PLUGIN_DIR . "/mgwoocommercebrands/languages/" );
 	}
 
 	/*

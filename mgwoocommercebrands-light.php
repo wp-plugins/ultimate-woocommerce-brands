@@ -1,6 +1,6 @@
 <?php
 /* 
-Plugin Name: Ultimate WooCommerce Brands Light
+Plugin Name: Ultimate WooCommerce Brands
 Plugin URI: http://magniumthemes.com/
 Description: Add Brands taxonomy for products from WooCommerce plugin.
 Version: 1.0

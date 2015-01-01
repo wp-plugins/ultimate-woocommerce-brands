@@ -91,9 +91,9 @@ class mgwoocommercebrands_list_widget extends WP_Widget {
 					echo '<li>';	
 					
 					if($show_count == 1) {
-						echo '<li><a href="'.get_term_link( $brand_item->slug, 'product_brand' ).'">'.$brand_item->name.'</a> <span class="count">('.$brand_item->count.')</span></li>';
+						echo '<a href="'.get_term_link( $brand_item->slug, 'product_brand' ).'">'.$brand_item->name.'</a> <span class="count">('.$brand_item->count.')</span>';
 					} else {
-						echo '<li><a href="'.get_term_link( $brand_item->slug, 'product_brand' ).'">'.$brand_item->name.'</a></li>';
+						echo '<a href="'.get_term_link( $brand_item->slug, 'product_brand' ).'">'.$brand_item->name.'</a>';
 					}
 					
 					echo '</li>';

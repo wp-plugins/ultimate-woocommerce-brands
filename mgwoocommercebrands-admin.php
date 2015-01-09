@@ -27,9 +27,23 @@ if ( ! class_exists( 'mgwoocommercebrandsadmin' ) ) {
 			//Filters
 			add_filter( 'woocommerce_settings_tabs_array', array( $this, 'add_tab_woocommerce' ), 30 );
 
+			add_action( 'admin_notices', array( $this, 'show_admin_notice') );
+
 		}
 
+		public function show_admin_notice() {
+    ?>
+    <div class="uwb-message error" style="display:none;">
+        <p><?php _e( 'You are using FREE Version of Ultimate WooCommerce Brands plugin without additional features.', 'mgwoocommercebrands' ); ?></p>
+    	<a style="margin:10px 0; display:block;" href="//www.bluehost.com/track/magniumthemes/uwb" target="_blank">
+        <img border="0" src="//bluehost-cdn.com/media/partner/images/magniumthemes/760x80/bh-ppc-banners-dynamic-760x80.png">
+        <a class="button-primary" style="margin-bottom: 10px;" href="http://codecanyon.net/item/ultimate-woocommerce-brands-plugin/9433984/?ref=dedalx" target="_blank">Update to PRO version to get premium features</a> <a id="uwb-dismiss-notice" class="button-secondary" style="margin-bottom: 10px;" href="javascript:void(0);">Hide this message</a>
+        </a>
+    </div>
 
+                    
+	    <?php
+	}
 		/**
 		 * Init method:
 		 *  - default options

@@ -3,7 +3,7 @@
 Plugin Name: Ultimate WooCommerce Brands
 Plugin URI: http://magniumthemes.com/
 Description: Add Brands taxonomy for products from WooCommerce plugin.
-Version: 1.1
+Version: 1.1.1
 Author: MagniumThemes
 Author URI: http://magniumthemes.com/
 Copyright MagniumThemes.com. All rights reserved.

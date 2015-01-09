@@ -4,7 +4,7 @@ Donate link: http://magniumthemes.com/
 Tags: brands, distributor, manufacturer, supplier, woocommerce, woocommerce brand, woocommerce manufaturer, woocommerce supplier, plugin, admin, shortcode, sidebar, widget, wordpress, category, taxonomy
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 1.1
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -68,10 +68,13 @@ Read plugin [Documentation](http://docs.magniumthemes.com/uwb-light/Documentatio
 * Init release
 = 1.1 =
 * Fixed - Empty items in Brands List widget
-
+= 1.1.1 =
+* Fixed - Empty items in Brands List widget
 == Upgrade Notice ==
 
 = 1.0 =
 Init version
 = 1.1 =
+Update plugin as always
+= 1.1.1 =
 Update plugin as always

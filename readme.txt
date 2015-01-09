@@ -69,7 +69,7 @@ Read plugin [Documentation](http://docs.magniumthemes.com/uwb-light/Documentatio
 = 1.1 =
 * Fixed - Empty items in Brands List widget
 = 1.1.1 =
-* Fixed - Empty items in Brands List widget
+* Fixed - Minor fixes
 == Upgrade Notice ==
 
 = 1.0 =
